@@ -13,7 +13,7 @@ class ControlServise
 
     public function get()
     {
-        return $this->post->paginate(5);
+        return $this->post->paginate(10);
     }
 
     public function update($request)
