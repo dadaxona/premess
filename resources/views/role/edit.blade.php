@@ -29,7 +29,6 @@
                     <input type="text" name="name" id="" value="{{ $edit->name }}">
                     <input type="email" name="email" id="" value="{{ $edit->email }}">
                     <input type="text" name="password" id="" value="{{ $edit->password }}">
-                    <input type="checkbox" name="role" id="" value="{{ $edit->role }}">
                     <input type="submit" name="" id="">
                 </form>
          
